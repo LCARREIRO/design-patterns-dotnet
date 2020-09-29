@@ -1,0 +1,11 @@
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/obj/Debug/netcoreapp3.1/CursoDesignPatterns.csprojAssemblyReference.cache
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/obj/Debug/netcoreapp3.1/CursoDesignPatterns.AssemblyInfoInputs.cache
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/obj/Debug/netcoreapp3.1/CursoDesignPatterns.AssemblyInfo.cs
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns.deps.json
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns.runtimeconfig.json
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns.runtimeconfig.dev.json
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns.dll
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/bin/Debug/netcoreapp3.1/CursoDesignPatterns.pdb
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/obj/Debug/netcoreapp3.1/CursoDesignPatterns.dll
+/Users/lucianocarreiro/Documents/curos-alura/CursoDesignPatterns/obj/Debug/netcoreapp3.1/CursoDesignPatterns.pdb
