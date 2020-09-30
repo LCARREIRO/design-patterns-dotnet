@@ -19,7 +19,7 @@ namespace CursoDesignPatterns.investment
             if (random.Next(2) == 0)
                 return account.Balance * 2.5;
             else
-                return account.Balance * 0.7; 
+                return account.Balance * 0.7;
         }
     }
 }
