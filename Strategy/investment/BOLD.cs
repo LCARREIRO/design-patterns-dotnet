@@ -1,8 +1,8 @@
 using System;
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.investment
+namespace CursoDesignPatterns.Strategy.investment
 {
     // ARROJADO", que tem 20% de chances de retornar 5%, 30% de chances de retornar 3%, 
     // e 50% de chances de retornar 0.6%.

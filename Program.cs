@@ -1,9 +1,11 @@
 ﻿using System;
-using CursoDesignPatterns.Impost;
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.investment;
-using CursoDesignPatterns.Models;
-using CursoDesignPatterns.Service;
+using CursoDesignPatterns.ChainOfResponsibility.Service;
+using CursoDesignPatterns.Strategy.Impost;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.investment;
+using CursoDesignPatterns.Strategy.Models;
+using CursoDesignPatterns.ChainOfResponsibility.Model;
+using CursoDesignPatterns.Strategy.Service;
 
 namespace CursoDesignPatterns
 {
@@ -11,35 +13,58 @@ namespace CursoDesignPatterns
     {
         static void Main(string[] args)
         {
-            Budget budget = new Budget(500.0);
+            #region Strategy
+
+            // Budget budget = new Budget(500.0);
 
             // IMPOST
-            IImpost icms = new ICMS();
-            IImpost iss = new ISS();
-            IImpost iccc = new ICCC();
+            // IImpost icms = new ICMS();
+            // IImpost iss = new ISS();
+            // IImpost iccc = new ICCC();
 
-            ImpostService impostService = new ImpostService();
+            // ImpostService impostService = new ImpostService();
 
             // Console.WriteLine(impostService.Calculates(budget, icms));
             // Console.WriteLine(impostService.Calculates(budget, iss));
             // Console.WriteLine(impostService.Calculates(budget, iccc));
 
-            Account account = new Account(500.0);
-            
+            // Account account = new Account(500.0);
+
             // INVESTMENT
-            IInvestment conservative = new CONSERVATIVE();
-            IInvestment moderate = new MODERATE();
-            IInvestment bold = new BOLD();
+            // IInvestment conservative = new CONSERVATIVE();
+            // IInvestment moderate = new MODERATE();
+            // IInvestment bold = new BOLD();
 
-            InvestmentService investmentService = new InvestmentService();
+            // InvestmentService investmentService = new InvestmentService();
 
-            investmentService.Calculates(account, conservative);
-            investmentService.Calculates(account, moderate);
-            investmentService.Calculates(account, bold);
-        
+            // investmentService.Calculates(account, conservative);
+            // investmentService.Calculates(account, moderate);
+            // investmentService.Calculates(account, bold);
+
+            #endregion
+
+            #region Chain Of Responsibility
+
+            DiscountService discountService = new DiscountService();
+
+            CursoDesignPatterns.ChainOfResponsibility.Model.Budget budget = new CursoDesignPatterns.ChainOfResponsibility.Model.Budget(500);
+            // budget.AddIten(new Iten("CAMISA", 250));
+            budget.AddIten(new Iten("CANETA", 250));
+            budget.AddIten(new Iten("LAPIS", 250));
+            // budget.AddIten(new Iten("CALSA", 250));
+            // budget.AddIten(new Iten("GRAVATA", 250));
+            // budget.AddIten(new Iten("GRAVATA", 250));
+
+            foreach (var item in budget.Itens)
+            {
+                Console.WriteLine($"{item.Name} - {item.Price.ToString()}");
+            }
+
+            discountService.Calculate(budget);
+
+            #endregion
 
             Console.ReadKey();
-
         }
     }
 }

@@ -1,6 +1,6 @@
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.Interfaces
+namespace CursoDesignPatterns.Strategy.Interfaces
 {
     public interface IInvestment
     {

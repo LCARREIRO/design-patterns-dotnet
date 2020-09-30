@@ -1,4 +1,4 @@
-namespace CursoDesignPatterns.Models
+namespace CursoDesignPatterns.Strategy.Models
 {
     public class Budget
     {

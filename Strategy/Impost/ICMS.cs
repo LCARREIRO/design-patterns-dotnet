@@ -1,8 +1,8 @@
 using System;
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.Impost
+namespace CursoDesignPatterns.Strategy.Impost
 {
     public class ICMS : IImpost
     {

@@ -1,7 +1,7 @@
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.investment
+namespace CursoDesignPatterns.Strategy.investment
 {
     public class CONSERVATIVE : IInvestment
     {

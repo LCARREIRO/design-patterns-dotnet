@@ -1,8 +1,8 @@
 using System;
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.investment
+namespace CursoDesignPatterns.Strategy.investment
 {
     // "MODERADO", que tem 50% de chances de retornar 2.5%, e 50% de chances de retornar 0.7%;
     public class MODERATE : IInvestment

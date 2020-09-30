@@ -1,7 +1,7 @@
-using CursoDesignPatterns.Interfaces;
-using CursoDesignPatterns.Models;
+using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Strategy.Models;
 
-namespace CursoDesignPatterns.Impost
+namespace CursoDesignPatterns.Strategy.Impost
 {
     public class ICCC : IImpost
     {
@@ -11,15 +11,15 @@ namespace CursoDesignPatterns.Impost
 
             if (value < 1000)
             {
-                return value * 0.5;
+                return value * 0.05;
             }
             else if (value >= 1000 && value <= 3000)
             {
-                return value * 0.7;
+                return value * 0.07;
             }
             else
             {
-                return (value * 0.8) + 30;
+                return (value * 0.08) + 30;
             }
         }
     }
