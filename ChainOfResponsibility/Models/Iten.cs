@@ -1,4 +1,4 @@
-namespace CursoDesignPatterns.ChainOfResponsibility.Model
+namespace CursoDesignPatterns.ChainOfResponsibility.Models
 {
     public class Iten
     {

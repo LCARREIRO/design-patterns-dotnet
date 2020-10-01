@@ -1,5 +1,5 @@
 using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
-using CursoDesignPatterns.ChainOfResponsibility.Model;
+using CursoDesignPatterns.ChainOfResponsibility.Models;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Discounts
 {

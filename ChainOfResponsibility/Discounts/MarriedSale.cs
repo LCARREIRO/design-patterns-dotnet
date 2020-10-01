@@ -1,12 +1,12 @@
 using System.Linq;
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
 using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
-using CursoDesignPatterns.ChainOfResponsibility.Model;
+using CursoDesignPatterns.ChainOfResponsibility.Models;
 using CursoDesignPatterns.ChainOfResponsibility.Service;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Discounts
 {
-    public class DiscountMarriedSale : IDiscount
+    public class MarriedSale : IDiscount
     {
         public IDiscount nextDiscount { get; set; }
 

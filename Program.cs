@@ -3,9 +3,9 @@ using CursoDesignPatterns.ChainOfResponsibility.Service;
 using CursoDesignPatterns.Strategy.Impost;
 using CursoDesignPatterns.Strategy.Interfaces;
 using CursoDesignPatterns.Strategy.investment;
-using CursoDesignPatterns.Strategy.Models;
-using CursoDesignPatterns.ChainOfResponsibility.Model;
+using CursoDesignPatterns.ChainOfResponsibility.Models;
 using CursoDesignPatterns.Strategy.Service;
+using CursoDesignPatterns.ChainOfResponsibility.Enum;
 
 namespace CursoDesignPatterns
 {
@@ -45,24 +45,33 @@ namespace CursoDesignPatterns
 
             #region Chain Of Responsibility
 
-            DiscountService discountService = new DiscountService();
+            // DiscountService discountService = new DiscountService();
 
-            CursoDesignPatterns.ChainOfResponsibility.Model.Budget budget = new CursoDesignPatterns.ChainOfResponsibility.Model.Budget(500);
+            // CursoDesignPatterns.ChainOfResponsibility.Model.Budget budget = new CursoDesignPatterns.ChainOfResponsibility.Model.Budget(500);
             // budget.AddIten(new Iten("CAMISA", 250));
-            budget.AddIten(new Iten("CANETA", 250));
-            budget.AddIten(new Iten("LAPIS", 250));
+            // budget.AddIten(new Iten("CANETA", 250));
+            // budget.AddIten(new Iten("LAPIS", 250));
             // budget.AddIten(new Iten("CALSA", 250));
             // budget.AddIten(new Iten("GRAVATA", 250));
             // budget.AddIten(new Iten("GRAVATA", 250));
 
-            foreach (var item in budget.Itens)
-            {
-                Console.WriteLine($"{item.Name} - {item.Price.ToString()}");
-            }
+            // foreach (var item in budget.Itens)
+            // {
+            //     Console.WriteLine($"{item.Name} - {item.Price.ToString()}");
+            // }
 
-            discountService.Calculate(budget);
+            // discountService.Calculate(budget);
+
+            
+
+            RequestService requestService = new RequestService();
+            Account account = new Account(200, "Luciano");
+            // requestService.Format(account, EFormat.XML);
+            // requestService.Format(account, EFormat.CSV);
+            requestService.Format(account, EFormat.PERCENT);
 
             #endregion
+
 
             Console.ReadKey();
         }

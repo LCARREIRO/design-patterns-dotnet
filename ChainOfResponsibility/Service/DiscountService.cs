@@ -2,7 +2,7 @@
 using System;
 using CursoDesignPatterns.ChainOfResponsibility.Discounts;
 using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
-using CursoDesignPatterns.ChainOfResponsibility.Model;
+using CursoDesignPatterns.ChainOfResponsibility.Models;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Service
 {
@@ -10,9 +10,9 @@ namespace CursoDesignPatterns.ChainOfResponsibility.Service
     {
         public void Calculate(Budget budget)
         {
-            IDiscount d1 = new DiscountForFiveItems();
+            IDiscount d1 = new MoreThanFiveItems();
             IDiscount d2 = new PurchaseOverFiveHundred();
-            IDiscount d3 = new DiscountMarriedSale();
+            IDiscount d3 = new MarriedSale();
             IDiscount d4 = new NoDiscount();  
 
             d1.nextDiscount = d2;
