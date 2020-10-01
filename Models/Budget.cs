@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CursoDesignPatterns.ChainOfResponsibility.Models
+namespace CursoDesignPatterns.Models
 {
     public class Budget
     {

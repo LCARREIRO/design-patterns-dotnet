@@ -1,6 +1,6 @@
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
 
-namespace CursoDesignPatterns.ChainOfResponsibility.Models
+namespace CursoDesignPatterns.Models
 {
     public class Request
     {

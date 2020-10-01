@@ -1,4 +1,4 @@
-using CursoDesignPatterns.Strategy.Models;
+using CursoDesignPatterns.Models;
 
 namespace CursoDesignPatterns.Strategy.Interfaces
 {

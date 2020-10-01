@@ -1,4 +1,4 @@
-using CursoDesignPatterns.ChainOfResponsibility.Models;
+using CursoDesignPatterns.Models;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Interfaces
 {

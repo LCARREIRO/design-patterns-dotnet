@@ -1,6 +1,6 @@
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
 using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
-using CursoDesignPatterns.ChainOfResponsibility.Models;
+using CursoDesignPatterns.Models;
 using System.IO;
 using System.Xml;
 using System.Xml.Serialization;

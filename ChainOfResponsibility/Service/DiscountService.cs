@@ -2,7 +2,7 @@
 using System;
 using CursoDesignPatterns.ChainOfResponsibility.Discounts;
 using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
-using CursoDesignPatterns.ChainOfResponsibility.Models;
+using CursoDesignPatterns.Models;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Service
 {
