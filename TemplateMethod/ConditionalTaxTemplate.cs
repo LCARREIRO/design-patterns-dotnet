@@ -1,5 +1,5 @@
 using CursoDesignPatterns.Models;
-using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Interfaces;
 
 namespace CursoDesignPatterns.TemplateMethod
 {
@@ -14,11 +14,11 @@ namespace CursoDesignPatterns.TemplateMethod
             return MinimumTaxation(budget);
         }
 
-        public abstract bool MustUseMaximumTaxation(Budget budget);
+        protected abstract bool MustUseMaximumTaxation(Budget budget);
 
-        public abstract double MinimumTaxation(Budget budget);
+        protected abstract double MinimumTaxation(Budget budget);
 
-        public abstract double MaximumTaxation(Budget budget);
+        protected abstract double MaximumTaxation(Budget budget);
 
     }
 }

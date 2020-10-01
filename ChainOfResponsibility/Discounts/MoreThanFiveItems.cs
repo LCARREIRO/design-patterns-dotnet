@@ -1,4 +1,4 @@
-using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
+using CursoDesignPatterns.Interfaces;
 using CursoDesignPatterns.Models;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Discounts

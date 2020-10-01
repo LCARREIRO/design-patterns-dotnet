@@ -1,6 +1,6 @@
 using CursoDesignPatterns.Models;
 
-namespace CursoDesignPatterns.ChainOfResponsibility.Interfaces
+namespace CursoDesignPatterns.Interfaces
 {
     public interface IDiscount
     {

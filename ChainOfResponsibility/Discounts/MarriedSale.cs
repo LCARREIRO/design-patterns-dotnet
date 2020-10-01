@@ -1,7 +1,7 @@
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
-using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
+using CursoDesignPatterns.Interfaces;
 using CursoDesignPatterns.Models;
-using CursoDesignPatterns.ChainOfResponsibility.Service;
+using CursoDesignPatterns.Service;
 
 namespace CursoDesignPatterns.ChainOfResponsibility.Discounts
 {

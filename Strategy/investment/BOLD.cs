@@ -1,5 +1,5 @@
 using System;
-using CursoDesignPatterns.Strategy.Interfaces;
+using CursoDesignPatterns.Interfaces;
 using CursoDesignPatterns.Models;
 
 namespace CursoDesignPatterns.Strategy.investment

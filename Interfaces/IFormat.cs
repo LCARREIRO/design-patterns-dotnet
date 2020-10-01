@@ -1,7 +1,7 @@
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
 using CursoDesignPatterns.Models;
 
-namespace CursoDesignPatterns.ChainOfResponsibility.Interfaces
+namespace CursoDesignPatterns.Interfaces
 {
     public interface IFormat
     {

@@ -1,16 +1,20 @@
+using System.Collections.Generic;
+
 namespace CursoDesignPatterns.Models
 {
     public class Account
     {
-        public double Balance { get; private set; }
         public string Holder { get; private set; }
-
-        public Account(double balance, string holder)
+        public double Balance { get; private set; }
+        public string Agency { get; private set; }
+        public string Number { get; private set; }
+        public Account(double balance, string holder, string agency, string number)
         {
-            this.Balance = balance;
             this.Holder = holder;
+            this.Balance = balance;
+            this.Number = number;
+            this.Agency = agency;
         }
-
         public void Deposit(double value)
         {
             this.Balance += value;

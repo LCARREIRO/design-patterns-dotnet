@@ -1,6 +1,6 @@
 using CursoDesignPatterns.Models;
 
-namespace CursoDesignPatterns.Strategy.Interfaces
+namespace CursoDesignPatterns.Interfaces
 {
     public interface IImpost
     {

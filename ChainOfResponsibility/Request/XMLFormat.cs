@@ -1,5 +1,5 @@
 using CursoDesignPatterns.ChainOfResponsibility.Enum;
-using CursoDesignPatterns.ChainOfResponsibility.Interfaces;
+using CursoDesignPatterns.Interfaces;
 using CursoDesignPatterns.Models;
 using System.IO;
 using System.Xml;
